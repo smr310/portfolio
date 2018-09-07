@@ -1,0 +1,383 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #65AFFF;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.fa-chevron-down {
+  color: #ffffff;
+  font-size: 28px;
+  text-shadow: 0px 0px 2px white;
+  transition: color 700ms ease;
+}
+
+.fa-react {
+  font-size: 32px;
+  color: #00CCD9;
+}
+
+.fa-js-square {
+  font-size: 32px;
+  color: #F9DB47;
+}
+
+.fa-html5 {
+  font-size: 32px;
+  color: #EB4031;
+}
+
+.fa-css3-alt {
+  font-size: 32px;
+  color: #0077B6;
+}
+
+.fa-node-js {
+  font-size: 32px;
+  color: #5C9B62;
+}
+
+.redux-icon {
+  width: 30px;
+}
+
+.jquery-icon {
+  width: 30px;
+}
+
+body {
+  background: #333333;
+  font-family: "Open Sans",
+  sans-serif; 
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0px;
+  padding-top: 40px;
+}
+
+nav a {
+   margin: 0px 8px;
+}
+
+nav {
+  display: none;
+  height: 50px;
+  padding-top: 12px;
+  background: #0B0A07;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.nav-item {
+  padding: 6px 6px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-button {
+  /* margin: 0px 8px;  */
+}
+
+header {
+  display: inline-block;
+  background-color: #333333;
+  height: 100vh;
+}
+
+section {
+  padding-bottom: 10%;
+}
+
+.section-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 32px;
+  padding-top: 50px;
+  padding-bottom:2%;
+}
+
+#about {
+  padding-bottom: 6%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background: #507DBC;
+}
+
+#contact {
+  background: grey;
+}
+
+
+.hey-text {
+  color: white;
+  margin-top: 10%;
+  font-size: 35px;
+  text-align: left;
+  margin-left: 395px;
+}
+
+.and-text {
+  color: white;
+  font-size: 35px;
+  margin-left: 20px;
+}
+
+.name-text {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  margin-top: 5%;
+  color: #65AFFF;
+  margin-left: 13px;
+}
+
+#full-stack-text {
+  font-family: 'Cormorant Garamond', serif;
+  color: #E8F1F2;
+  font-size: 20px;
+}
+
+.brackets {
+  font-size: 15px;
+  color: white;
+  margin-top: 2%;
+}
+
+.social-icons-container {
+  margin-top: 10%;
+}
+
+.hero-github, .hero-linkedin {
+  font-family: 'Cormorant Garamond', serif;
+  margin: 15px;
+  font-size: 18px;
+  color: white;
+  transition: color 200ms ease;
+}
+
+.hero-github:hover, .hero-linkedin:hover {
+  color: #F06543;
+  cursor: pointer;
+}
+
+
+#projects {
+  background: white;
+}
+
+.project-container {
+  height: 100%;
+  vertical-align: text-bottom;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.project-title {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px;
+}
+
+.project-image {
+  width: 300px;
+  vertical-align: text-top;
+
+}
+
+.project-image:hover {
+  cursor: pointer;
+}
+
+.tech-icons {
+  margin-bottom: 3%;
+}
+
+.demo-button, .github-button{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  /* background-color: #EF8354; */
+  background-color: #333333;
+  width: 120px;
+  height: 45px;
+  color: white;
+  border-radius: 5px;
+  transition: color .1s;
+  border: none;
+}
+
+.demo-button:hover, .github-button:hover {
+  /* box-shadow: 2px 2px 1px grey; */
+  color: #F06543;
+  cursor: pointer;
+}
+
+.project-details {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px;
+    text-align: left;
+    margin: 5% 13%;
+    display: inline-block;
+}
+
+.travelbak-details {
+  height: 145px;
+}
+
+.trackday-details {
+  height: 160px;
+}
+
+.goodscenes-details {
+  height: 115px;
+}
+
+
+
+
+
+.about-me-title {
+  text-align: center;
+}
+
+.about-me-text {
+  font-size: 18px;
+  text-align: left;
+  padding: 0px 25px;
+  font-family: 'Cormorant Garamond', serif;
+  
+}
+
+#contact {
+  background: #333333;
+  color: white;
+}
+
+.contact-me-text {
+  font-size: 18px;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+footer {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 16px;
+  padding: 1% 0;
+  background-color: black;
+  color: white;
+}
+
+
+@media only screen and (min-width: 350px) {
+  .project-container {
+    width: 350px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  nav {
+    text-align: right;
+    padding-right: 30px;
+  }
+  
+  .nav-item:hover {
+    padding: 6px 6px;
+    border-radius: 5px;
+    background: #333333;
+    color: white;
+  }
+
+  .about-me-text {
+   font-size: 20px;
+  }
+  
+  .contact-me-text {
+    font-size: 16px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
+
+
+@media only screen and (min-width: 560px) {
+  .name-text {
+    font-size: 55px;
+}
+
+  #full-stack-text {
+    font-size: 35px;
+  }
+
+  .brackets {
+    font-size: 30px;
+  }
+
+  .hero-github, .hero-linkedin {
+    font-size: 30px;
+  }
+
+}
+
+
+@media only screen and (min-width: 780px) {
+  .name-text {
+    font-size: 82px;
+}
+
+  #full-stack-text {
+    font-size: 55px;
+  }
+
+  .brackets {
+    font-size: 40px;
+  }
+
+  .contact-me-text {
+    font-size: 20px;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+
+}
+
+
+@media only screen and (min-width: 721px) {
+  .travelbak-details {
+    height: 160px;
+  }
+
+  .trackday-details {
+    height: 160px;
+  }
+
+  .goodscenes-details {
+    height: 115px;
+  }
+}
+
+@media only screen and (min-width: 1077px) {
+  .project-details {
+    height: 160px;
+  }
+}
+
+
+
+
+
+
+
