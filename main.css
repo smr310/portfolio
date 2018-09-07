@@ -122,24 +122,10 @@ section {
 }
 
 
-.hey-text {
-  color: white;
-  margin-top: 10%;
-  font-size: 35px;
-  text-align: left;
-  margin-left: 395px;
-}
-
-.and-text {
-  color: white;
-  font-size: 35px;
-  margin-left: 20px;
-}
-
 .name-text {
   font-family: 'Libre Baskerville', serif;
   font-size: 40px;
-  margin-top: 5%;
+  margin-top: 40px;
   color: #65AFFF;
   margin-left: 13px;
 }
@@ -153,11 +139,10 @@ section {
 .brackets {
   font-size: 15px;
   color: white;
-  margin-top: 2%;
 }
 
 .social-icons-container {
-  margin-top: 10%;
+  margin-top: 130px;
 }
 
 .hero-github, .hero-linkedin {
@@ -308,6 +293,8 @@ footer {
   footer {
     font-size: 16px;
   }
+
+  
 }
 
 
@@ -318,6 +305,7 @@ footer {
 
   #full-stack-text {
     font-size: 35px;
+    margin-top: 26px;
   }
 
   .brackets {
